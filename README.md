@@ -1,1 +1,1 @@
-ejemplocomposer
+Ejemplo PHP + Slim + Composer
