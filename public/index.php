@@ -10,9 +10,11 @@ $app = new \Slim\App;
 $app->get('/hello/{name}', function (Request $request, Response $response, array $args) {
     $name = $args['name'];
     $response->getBody()->write("Hello, $name");
-
+    echo "<script> console.log('prueba por develop');</script>";
     return $response;
 });
+
+
 
 //require '../src/rutas/clientes.php';
 $app->run();
