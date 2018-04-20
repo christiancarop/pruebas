@@ -1,0 +1,9 @@
+{
+    "name": "grupo-exito/envios",
+    "description": "mis primeros pasos",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "slim/slim":"3.9.*"
+    }
+}
