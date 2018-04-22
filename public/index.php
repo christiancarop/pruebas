@@ -11,6 +11,7 @@ $app->get('/hello/{name}', function (Request $request, Response $response, array
     $name = $args['name'];
     $response->getBody()->write("Hello, $name");
     echo "<script> console.log('prueba por develop');</script>";
+    echo "<script> console.log('mis primeros pasitos');</script>";
     return $response;
 });
 
